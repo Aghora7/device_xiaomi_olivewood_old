@@ -42,7 +42,7 @@
     </array>
     <item name="cpu.awake">4</item>
     <item name="cpu.idle">3</item>
-    <item name="battery.capacity">4000</item>
+    <item name="battery.capacity">5000</item>
     <item name="bluetooth.active">40</item>
     <item name="bluetooth.at">2</item>
     <item name="bluetooth.on">2</item>
