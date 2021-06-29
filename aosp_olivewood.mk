@@ -11,26 +11,23 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from olivewood device
 $(call inherit-product, device/xiaomi/olivewood/device.mk)
 
-# Inherit some dotOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some LESSAOSP stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Bootanimation res
 TARGET_BOOT_ANIMATION_RES := 720
 
-# Device Maintainer
-DEVICE_MAINTAINER := AOiSPdev
-
-# Official dotOS
-DOT_OFFICIAL := true
+# Official
+CUSTOM_BUILD_TYPE := OFFICIAL
 
 # FaceUnlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_olivewood
+PRODUCT_NAME := aosp_olivewood
 PRODUCT_DEVICE := olivewood
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi 8A Dual
+PRODUCT_MODEL := Redmi 8 Series
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
