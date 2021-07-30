@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/olivewood
+DEVICE_PATH := device/xiaomi/olives
 
 # Architecture
 TARGET_ARCH := arm64
@@ -148,7 +148,7 @@ TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_USES_MEDIA_EXTENSIONS := true
 
 # OTA
-TARGET_OTA_ASSERT_DEVICE := olivewood,olivelite
+TARGET_OTA_ASSERT_DEVICE := olivewood,olivelite,olives,olive
 
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true

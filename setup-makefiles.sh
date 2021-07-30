@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=olivewood
+DEVICE=olives
 VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks
